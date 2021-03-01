@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    margin:0 ;
+    padding: 0;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    color: white;
+}
+
+
+
+.brand-title{
+    font-size: 1.5rem;
+    margin: .5rem;
+    
+}
+
+
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+
+.navbar-links li{
+    list-style: none;
+}
+
+.navbar-links li a{
+    text-decoration: none;
+    padding: 0.5rem;
+    color: white;
+    display: block;
+}
+
+
+.navbar-links li:hover{
+    background-color: white;
+    
+}
+
+.navbar-links a:hover{
+    color: orange;
+}
+
+
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+
+
+.toggle-button .bar{
+    height: 4px;
+    width: 100%;
+    background-color:white;
+    border-radius: 50px;
+}
+
+
+@media (max-width: 1600px) {
+    .toggle-button {
+        display: flex;
+    }
+    .navbar-links {
+        display: flex;
+        width: 100%;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+.navbar-links ul{
+    width: 100%;
+    flex-direction: column;
+}
+
+.navbar-links li{
+    text-align: center;
+}
+
+.navbar-links li a{
+    padding: .5rem 1rem ;
+}
+
+.navbar-links{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+}
+
+
+
+
+
+
+
+/*countdown*/
+
+.days p {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    line-height: 35px;
+    padding: 0;
+    
+    
+  }
+  p{
+      margin-top: 80px;
+  }
+
+h3{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+  body{
+      background-color: black;
+      color: white;
+      text-align: center;
+      
+      
+  }
+
+  .days{
+      
+    border: 2px solid orange;
+      padding: 10px 60px;
+      border-radius: 50px;
+      display: inline-block;
+      box-shadow: 5px 3px orange;
+  }
+
+
+
+  .click a{
+      text-decoration: none;
+      color: black;
+      
+  }
+
+  button{
+      background-color:white;
+      border: none;
+      }
+
+      button:hover {
+          background-color: orange;
+          color: white;
+      }
+
+      a:hover{
+          color: white;
+      }
+
+/*transaction sectin*/
+
+      .heading{
+          background-color: orange;
+      }
+
+      table{
+          width: 100%;
+      }
+      td{
+          padding: 14px 10px;
+          font-size: 25px;
+          
+      }
+      th{
+          font-size: 20px;
+      }
